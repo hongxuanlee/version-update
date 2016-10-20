@@ -1,0 +1,15 @@
+{
+  "name": "version-update",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mz": "^2.4.0",
+    "shelljs": "^0.7.4"
+  }
+}
