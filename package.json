@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*/*"
+    "test": "mocha --timeout 10000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.0.0",
     "mz": "^2.4.0",
     "shelljs": "^0.7.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   }
 }

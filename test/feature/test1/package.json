@@ -1,11 +1,15 @@
 {
   "name": "version-test",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*/*"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
