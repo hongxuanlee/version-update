@@ -9,7 +9,7 @@ for npm module update
 
 - parameter: `options = {}`
 
-```
+```js
   options = {
     moduleName, // module name to update
     version，// optional, module version you want to update
@@ -21,7 +21,7 @@ for npm module update
 
 1. Object: if input path is module path, return object
 
-```
+```js
   {
      status, // 0 is success, -1 is failed
      path,
@@ -33,15 +33,16 @@ for npm module update
 
 2.Array: if input path not module path. will update sub file recursively, return array
 
-```
+```js
   [
     obj, // object is the same as the above
   ]
 ```
 
 
-- example  
-```
+- example 
+
+```js
 const updateMain = require('version-update');
 updateMain({
    moduleName: 'lodash',
