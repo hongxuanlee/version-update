@@ -18,7 +18,8 @@ for npm module update
 ```
 
 - return: 
-    - Object: if input path is module path, return object
+
+1. Object: if input path is module path, return object
 
 ```
   {
@@ -30,7 +31,7 @@ for npm module update
   }
 ```
 
-    - Array: if input path not module path. will update sub file recursively, return array
+2.Array: if input path not module path. will update sub file recursively, return array
 
 ```
   [
